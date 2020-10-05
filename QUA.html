@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  
+<link rel="stylesheet" href="css/StyleQA.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+</head>
+<body class="demo">
+
+    <div class="navigation">
+        <div>
+            <a class="nav-item" asp-controller="Home" asp-action="Index">
+                <b>Q & A</b>
+            </a>
+        </div>
+        <input class="search" type="text" placeholder="Search" />
+        <a asp-controller="Account" asp-action="SignOut" class="btn-signin nav-item"> 
+            <i class="fas fa-user-secret"></i> Sign out (admin)</a>
+    </div>
+    <div>
+        <br>
+        <br>
+
+    </div>
+    
+    <!-- <div id="header">
+        <a href="#" class="nav-item"><b>Q & A</b></a>
+
+        <input class="search" type="text" placeholder="Search">
+
+        <a href="#" class="btn-signin nav-item">
+            <i class="fas fa-user-secret"> Sign out(admin) </i>
+          </a>
+   
+    </div>
+   
+    <br />
+    <br /> -->
+    
+    <div class="listofqa">
+
+        <h4 class="h4">UNANSWERED QUESTIONS</h4>  
+        <button type="submit" class="primary-button">Ask a question</button>
+      
+        <ul>
+                <li>
+                   <h4> Counting total and individual scores when droping div onto other div </h4>
+                   <p>
+                       I am working on HTML/JavaScript thingy. It shows a zoo, and you need to drag&drop the right anumals(div)
+                       in the right cades(div). When you do, it should update the total number of animals in the zoo
+
+                   </p>
+                   <p class="sign">
+                    Asked by admin on 9/27/2020 10:40:39 AM
+                   </p>
+                </li>
+                <li>
+                   <h4>How to utilize javascript on Adobe Dreamweaver CS4</h4>
+                   <p >
+                       Is  step 3 calling jQuery and Galleria for me so I don't need to put the js somewhere?
+                   </p>
+                   <p class="sign">
+                       Asked by admin on 9/27/2020 10:41:18 AM
+                   </p>
+                </li>
+                <li>
+                    <h4>
+                        How can I remove a specific item from an array?
+                    </h4>
+                    <p>
+                        8659 1335 I have an array of numbers and I am using the .push() method to add elements to it. 
+                        Is there a simple way to remove a specific element from an array?
+                    </p>
+                    <p class="sign">
+Asked by admin on 9/27/2020 10:41:45 AM
+                    </p>
+                </li>
+            </ul>
+</div>
+</body>
+</html>

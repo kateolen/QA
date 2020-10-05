@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/StyleQAndA.css">
+</head>
+<body>
+
+    <div class="navigation">
+        <div>
+            <a class="nav-item" asp-controller="Home" asp-action="Index">
+                <b>Q & A</b>
+            </a>
+        </div>
+        <input class="search" type="text" placeholder="Search" />
+        <a asp-controller="Account" asp-action="SignOut" class="btn-signin nav-item"> 
+            <i class="fas fa-user-secret"></i> Sign out (admin)</a>
+    </div>
+    <div>
+        <br>
+        <br>
+
+    </div>
+<br>
+
+
+    <h2 class="h2">ASK A QUESTION</h2>
+
+
+<form class="form">
+  
+<div  class="#">
+    <label for="#">Title</label>
+    <input type="text"  name="uname" required>
+
+    <label for="text">Content</label>
+    <input type="list" class="content" required>
+
+    <br>
+    
+<label class="line"></label>
+    <button class="primary-button" type="submit">Submit Your Question</button>
+</div>
+  </form>
+
+</body>
+<script>
+ 
+    console.log(1,2,3)
+</script>
+
+
+</html>
